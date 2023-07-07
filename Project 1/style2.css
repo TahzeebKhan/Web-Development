@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+#top-screen2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#top-screen{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position:absolute;
+}
+
+#top{
+    position: absolute;
+    right: 10%;
+    top: 7%;
+    overflow: hidden;
+    font-size: 8em; 
+    /* background-color: rgb(255, 127, 157); */
+
+    /* background-color: aqua;
+    width: fit-content;
+    position: absolute;
+    display: flex;
+    top: 5%;
+    left: 72%;
+    overflow: hidden;
+    font-size: 8em; */
+}
+
+#second-top{
+    position: absolute;
+    right: 12%;
+    top: 29%;
+    overflow: hidden;
+    font-size: 8em; 
+    /* background-color: rgb(238, 255, 127); */
+
+    /* background-color: rgb(51, 0, 255);
+    width: fit-content;
+    position: absolute;
+    display: flex;
+    top: 28%;
+    left: 75%;
+    overflow: hidden;
+    font-size: 8em; */
+}
+
+#second-lowest{
+    position: absolute;
+    right: 12%;
+    top: 51%;
+    overflow: hidden;
+    font-size: 8em; 
+    /* background-color: rgb(127, 157, 255); */
+
+    /* background-color: rgb(174, 190, 190);
+    width: fit-content;
+    position: absolute;
+    display: flex;
+    top: 51%;
+    left: 75%;
+    overflow: hidden;
+    font-size: 8em; */
+}
+
+#lowest{
+    position: absolute;
+    right: 12%;
+    top: 73%;
+    overflow: hidden;
+    font-size: 8em; 
+    /* background-color: aquamarine; */
+    /* background-color: aqua;
+    width: fit-content;
+    display: flex;
+    top: 74%;
+    left: 75%;
+*/
+}
+    
+#logo{
+    position: absolute;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left: 3%;
+    top:21%
+    
+}
+
+#btn1,#btn2,#btn3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    /* left: 37%; */
+    left: 47%;
+    top: 13%;
+    font-size: 28px;
+}
+#btn4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    left: 43%;
+    top: 13%;
+    font-size: 28px;
+}
+#btn1 button,#btn2 button,#btn3 button,#btn4 button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    font-size: 18px;
+}
+  
+#sale{
+    padding: 2px;
+    font-size: larger;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#topbar{
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    width: 100%;
+    border: 2px solid black;
+    
+}
+
+#navl{
+    margin: 25px;
+    margin-top: 14px;
+    font-size:xx-large;
+
+}
+
+#navr ul a{
+    padding: 4px;
+    text-decoration: none;
+    color: black;
+}
+
+#navr ul a:hover{
+    box-shadow: 2px 2px 25px rgb(79, 78, 78);
+}
+
+
+#navr ul li{
+    list-style: none;
+    margin: 25px;
+    margin-top: 18px;
+    font-size:23px;
+}
+#list{
+    display: flex;
+    justify-content:center;
+}
+
+#nav{
+    display: flex;
+    justify-content: center;
+    height: 59px;
+    width: 100%;
+    border-bottom: 2px solid black;
+    
+}
+
+#nav ul li{
+    list-style: none;
+    margin: 25px;
+    margin-top: 18px;
+    font-size:22px;
+}
+
+#nav ul a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#nav ul a:hover{
+    background-color:black;
+    color: white;
+}
+
+#options{
+    display: flex;
+    justify-content: center;
+}
+
+#center{
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+
+#topimg{
+    float: left;
+    width: 50%;
+    height:800px;
+}
+
+#topimg2{
+    float: right;
+    width: 50%;
+    height:800px;
+}
+
+#topimg3{
+    position: absolute;
+    top: 0%;
+    left: 0% ;
+    width: 50%;
+    height:800px;
+}
+
+#topimg4{
+
+    position: absolute;
+    top: 0%;
+    left:50%;
+    float: right;
+    width: 50%;
+    height:800px;
+}
+
+#topimg5{
+    position: absolute;
+    top: 0%;
+    left: 0% ;
+    width: 50%;
+    height:800px;
+}
+
+#topimg6{
+
+    position: absolute;
+    top: 0%;
+    left:50%;
+    float: right;
+    width: 50%;
+    height:800px;
+}
+
+#topimg7{
+    position: absolute;
+    top: 0%;
+    left: 0% ;
+    width: 50%;
+    height:800px;
+}
+
+#topimg8{
+
+    position:absolute;
+    top: 0%;
+    float: right;
+    width: 50%;
+    height:800px;
+}

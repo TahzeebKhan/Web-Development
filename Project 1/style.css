@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    width: 100%;
+    /* background-color: beige; */
+    border: 2px solid black;
+    
+}
+
+#navl{
+    margin: 25px;
+    margin-top: 14px;
+    font-size:xx-large;
+
+}
+ 
+#navr ul a{
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+#navr ul a:hover{
+    background-color:black;
+    color: white;
+}
+
+#navr ul li{
+    list-style: none;
+    margin: 25px;
+    margin-top: 18px;
+    font-size:23px;
+}
+#list{
+    display: flex;
+    justify-content:center;
+}
+
+#nav2{
+    display: flex;
+    justify-content: center;
+    height: 59px;
+    width: 100%;
+    border-bottom: 2px solid black;
+    background-color: black;
+    
+}
+
+#nav2 ul li{
+    list-style: none;
+    margin: 25px;
+    margin-top: 18px;
+    font-size:22px;
+}
+
+#nav2 ul a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#nav2 ul a:hover{
+    background-color:black;
+    color: white;
+}
+
+#options{
+    display: flex;
+    justify-content: center;
+}
+
+#center{
+    top: 30%;
+    left: 30%;
+    width: 40%;
+    height: 30%;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#center p{
+    text-shadow: 3px 2px 3px rgb(136, 133, 133);
+    font-size: 40px;
+    font-family: 
+}
+
+#img2{
+    left: 12%;
+    top: 53%;
+    position: absolute;
+}
+
+#img1{
+    left: 7%;
+    top: 23%;
+    position: absolute;
+}
+
+#img3{
+    left: 73%;
+    top: 18%;
+    position: absolute;
+}
+
+#img4{
+    left: 69%;
+    top: 53%;
+    position: absolute;
+}
+
+#btn{
+    left: 38%;
+    top: 100%;
+    position: absolute;
+}
+
+#btn input{
+    font-size: 20px;
+    padding: 5px 20px;
+    
+    box-shadow: 4px 4px 4px rgb(97, 96, 96);
+    background-color: black;
+    color: white;
+}
+
+#btn input:hover{
+    background-color: rgba(8, 32, 214, 0.922);
+    cursor: pointer;
+    border:none;
+    transition:.1s ease-in;
+    transform : scale(1.1) rotate(-.0deg);
+
+}
+
+#btn input:focus{
+    outline: 2px solic blue;
+}
+
+#center h4{
+   position: absolute;
+   top:125%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #box{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    background-color: goldenrod;
+}
+
+#box1{
+    position: absolute;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(47, 110, 110);
+}
+ */
